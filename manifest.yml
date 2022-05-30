@@ -1,0 +1,7 @@
+---
+applications:
+- name: springp
+  path: srv/target/springp-exec.jar
+  random-route: true
+  services:
+  - springp-hana
