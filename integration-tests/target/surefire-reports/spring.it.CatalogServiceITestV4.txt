@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: spring.it.CatalogServiceITestV4
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.137 s <<< FAILURE! - in spring.it.CatalogServiceITestV4
+spring.it.CatalogServiceITestV4.testReadBooks  Time elapsed: 2.357 s  <<< FAILURE!
+java.lang.AssertionError: JSON path "$.value[0].stock" expected:<100> but was:<12>
+	at spring.it.CatalogServiceITestV4.testReadBooks(CatalogServiceITestV4.java:29)
+
